@@ -1,15 +1,15 @@
 package avsregistry
 
 import (
-	"github.com/mpjunior92/eigensdk-go/chainio/clients/eth"
-	blsapkregistry "github.com/mpjunior92/eigensdk-go/contracts/bindings/BLSApkRegistry"
-	indexregistry "github.com/mpjunior92/eigensdk-go/contracts/bindings/IndexRegistry"
-	opstateretriever "github.com/mpjunior92/eigensdk-go/contracts/bindings/OperatorStateRetriever"
-	regcoordinator "github.com/mpjunior92/eigensdk-go/contracts/bindings/RegistryCoordinator"
-	servicemanager "github.com/mpjunior92/eigensdk-go/contracts/bindings/ServiceManagerBase"
-	stakeregistry "github.com/mpjunior92/eigensdk-go/contracts/bindings/StakeRegistry"
-	"github.com/mpjunior92/eigensdk-go/logging"
-	"github.com/mpjunior92/eigensdk-go/utils"
+	"github.com/Layr-Labs/eigensdk-go/chainio/clients/eth"
+	blsapkregistry "github.com/Layr-Labs/eigensdk-go/contracts/bindings/BLSApkRegistry"
+	indexregistry "github.com/Layr-Labs/eigensdk-go/contracts/bindings/IndexRegistry"
+	opstateretriever "github.com/Layr-Labs/eigensdk-go/contracts/bindings/OperatorStateRetriever"
+	regcoordinator "github.com/Layr-Labs/eigensdk-go/contracts/bindings/RegistryCoordinator"
+	servicemanager "github.com/Layr-Labs/eigensdk-go/contracts/bindings/ServiceManagerBase"
+	stakeregistry "github.com/Layr-Labs/eigensdk-go/contracts/bindings/StakeRegistry"
+	"github.com/Layr-Labs/eigensdk-go/logging"
+	"github.com/Layr-Labs/eigensdk-go/utils"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 
 	gethcommon "github.com/ethereum/go-ethereum/common"

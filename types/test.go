@@ -1,6 +1,6 @@
 package types
 
-import "github.com/mpjunior92/eigensdk-go/crypto/bls"
+import "github.com/Layr-Labs/eigensdk-go/crypto/bls"
 
 type TestOperator struct {
 	OperatorId     OperatorId

@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mpjunior92/eigensdk-go/crypto/bls"
-	"github.com/mpjunior92/eigensdk-go/internal/fakes"
-	"github.com/mpjunior92/eigensdk-go/testutils"
-	"github.com/mpjunior92/eigensdk-go/types"
+	"github.com/Layr-Labs/eigensdk-go/crypto/bls"
+	"github.com/Layr-Labs/eigensdk-go/internal/fakes"
+	"github.com/Layr-Labs/eigensdk-go/testutils"
+	"github.com/Layr-Labs/eigensdk-go/types"
 
 	"github.com/ethereum/go-ethereum/common"
 )

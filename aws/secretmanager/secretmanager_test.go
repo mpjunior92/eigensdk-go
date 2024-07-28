@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/mpjunior92/eigensdk-go/aws/secretmanager"
+	"github.com/Layr-Labs/eigensdk-go/aws/secretmanager"
 )
 
 func TestReadString(t *testing.T) {

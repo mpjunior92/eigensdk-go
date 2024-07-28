@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/mpjunior92/eigensdk-go/utils"
+	"github.com/Layr-Labs/eigensdk-go/utils"
 )
 
 // OperatorMetadata is the metadata operator uploads while registering

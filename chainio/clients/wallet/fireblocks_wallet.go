@@ -10,8 +10,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 
-	"github.com/mpjunior92/eigensdk-go/chainio/clients/fireblocks"
-	"github.com/mpjunior92/eigensdk-go/logging"
+	"github.com/Layr-Labs/eigensdk-go/chainio/clients/fireblocks"
+	"github.com/Layr-Labs/eigensdk-go/logging"
 
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"

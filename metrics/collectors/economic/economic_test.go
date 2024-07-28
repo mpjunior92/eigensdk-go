@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 
-	"github.com/mpjunior92/eigensdk-go/testutils"
-	"github.com/mpjunior92/eigensdk-go/types"
+	"github.com/Layr-Labs/eigensdk-go/testutils"
+	"github.com/Layr-Labs/eigensdk-go/types"
 )
 
 const registeredOpAddress = "0xb81b18c988bfc7d131fca985a9c531f325e98a2f"

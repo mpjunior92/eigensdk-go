@@ -3,7 +3,7 @@ package operatorsinfo
 import (
 	"context"
 
-	"github.com/mpjunior92/eigensdk-go/types"
+	"github.com/Layr-Labs/eigensdk-go/types"
 	"github.com/ethereum/go-ethereum/common"
 )
 

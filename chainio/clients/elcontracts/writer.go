@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/mpjunior92/eigensdk-go/utils"
+	"github.com/Layr-Labs/eigensdk-go/utils"
 
 	"math/big"
 
@@ -12,17 +12,17 @@ import (
 	gethcommon "github.com/ethereum/go-ethereum/common"
 	gethtypes "github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/mpjunior92/eigensdk-go/chainio/clients/eth"
-	"github.com/mpjunior92/eigensdk-go/chainio/txmgr"
-	delegationmanager "github.com/mpjunior92/eigensdk-go/contracts/bindings/DelegationManager"
-	erc20 "github.com/mpjunior92/eigensdk-go/contracts/bindings/IERC20"
-	rewardscoordinator "github.com/mpjunior92/eigensdk-go/contracts/bindings/IRewardsCoordinator"
-	slasher "github.com/mpjunior92/eigensdk-go/contracts/bindings/ISlasher"
-	strategy "github.com/mpjunior92/eigensdk-go/contracts/bindings/IStrategy"
-	strategymanager "github.com/mpjunior92/eigensdk-go/contracts/bindings/StrategyManager"
-	"github.com/mpjunior92/eigensdk-go/logging"
-	"github.com/mpjunior92/eigensdk-go/metrics"
-	"github.com/mpjunior92/eigensdk-go/types"
+	"github.com/Layr-Labs/eigensdk-go/chainio/clients/eth"
+	"github.com/Layr-Labs/eigensdk-go/chainio/txmgr"
+	delegationmanager "github.com/Layr-Labs/eigensdk-go/contracts/bindings/DelegationManager"
+	erc20 "github.com/Layr-Labs/eigensdk-go/contracts/bindings/IERC20"
+	rewardscoordinator "github.com/Layr-Labs/eigensdk-go/contracts/bindings/IRewardsCoordinator"
+	slasher "github.com/Layr-Labs/eigensdk-go/contracts/bindings/ISlasher"
+	strategy "github.com/Layr-Labs/eigensdk-go/contracts/bindings/IStrategy"
+	strategymanager "github.com/Layr-Labs/eigensdk-go/contracts/bindings/StrategyManager"
+	"github.com/Layr-Labs/eigensdk-go/logging"
+	"github.com/Layr-Labs/eigensdk-go/metrics"
+	"github.com/Layr-Labs/eigensdk-go/types"
 )
 
 type Reader interface {

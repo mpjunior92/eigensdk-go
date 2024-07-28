@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mpjunior92/eigensdk-go/cmd/egnkey/generate"
-	"github.com/mpjunior92/eigensdk-go/cmd/egnkey/operatorid"
-	"github.com/mpjunior92/eigensdk-go/cmd/egnkey/store"
+	"github.com/Layr-Labs/eigensdk-go/cmd/egnkey/generate"
+	"github.com/Layr-Labs/eigensdk-go/cmd/egnkey/operatorid"
+	"github.com/Layr-Labs/eigensdk-go/cmd/egnkey/store"
 	"github.com/urfave/cli/v2"
 )
 

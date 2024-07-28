@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/mpjunior92/eigensdk-go/crypto/bls"
-	"github.com/mpjunior92/eigensdk-go/logging"
-	"github.com/mpjunior92/eigensdk-go/types"
+	"github.com/Layr-Labs/eigensdk-go/crypto/bls"
+	"github.com/Layr-Labs/eigensdk-go/logging"
+	"github.com/Layr-Labs/eigensdk-go/types"
 	"github.com/consensys/gnark-crypto/ecc/bn254"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shurcooL/graphql"

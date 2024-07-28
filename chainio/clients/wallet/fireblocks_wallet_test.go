@@ -5,12 +5,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/mpjunior92/eigensdk-go/internal/fakes"
+	"github.com/Layr-Labs/eigensdk-go/internal/fakes"
 
-	"github.com/mpjunior92/eigensdk-go/chainio/clients/fireblocks"
-	cmocks "github.com/mpjunior92/eigensdk-go/chainio/clients/mocks"
-	"github.com/mpjunior92/eigensdk-go/chainio/clients/wallet"
-	"github.com/mpjunior92/eigensdk-go/logging"
+	"github.com/Layr-Labs/eigensdk-go/chainio/clients/fireblocks"
+	cmocks "github.com/Layr-Labs/eigensdk-go/chainio/clients/mocks"
+	"github.com/Layr-Labs/eigensdk-go/chainio/clients/wallet"
+	"github.com/Layr-Labs/eigensdk-go/logging"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/assert"

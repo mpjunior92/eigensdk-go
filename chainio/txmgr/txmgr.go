@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/mpjunior92/eigensdk-go/chainio/clients/wallet"
-	"github.com/mpjunior92/eigensdk-go/logging"
+	"github.com/Layr-Labs/eigensdk-go/chainio/clients/wallet"
+	"github.com/Layr-Labs/eigensdk-go/logging"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"

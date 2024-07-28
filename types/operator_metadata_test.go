@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	"github.com/mpjunior92/eigensdk-go/utils"
+	"github.com/Layr-Labs/eigensdk-go/utils"
 
 	"github.com/stretchr/testify/assert"
 )

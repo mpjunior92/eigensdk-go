@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mpjunior92/eigensdk-go/crypto/bls"
-	"github.com/mpjunior92/eigensdk-go/crypto/ecdsa"
+	"github.com/Layr-Labs/eigensdk-go/crypto/bls"
+	"github.com/Layr-Labs/eigensdk-go/crypto/ecdsa"
 	"github.com/stretchr/testify/assert"
 )
 
