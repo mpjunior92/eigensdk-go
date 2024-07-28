@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Layr-Labs/eigensdk-go/testutils"
+	"github.com/mpjunior92/eigensdk-go/testutils"
 
 	"github.com/stretchr/testify/assert"
 )

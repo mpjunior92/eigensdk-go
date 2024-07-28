@@ -4,9 +4,9 @@ import (
 	"context"
 	"math/big"
 
-	apkregistrybindings "github.com/Layr-Labs/eigensdk-go/contracts/bindings/BLSApkRegistry"
-	opstateretriever "github.com/Layr-Labs/eigensdk-go/contracts/bindings/OperatorStateRetriever"
-	"github.com/Layr-Labs/eigensdk-go/types"
+	apkregistrybindings "github.com/mpjunior92/eigensdk-go/contracts/bindings/BLSApkRegistry"
+	opstateretriever "github.com/mpjunior92/eigensdk-go/contracts/bindings/OperatorStateRetriever"
+	"github.com/mpjunior92/eigensdk-go/types"
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"

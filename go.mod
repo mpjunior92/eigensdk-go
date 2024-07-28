@@ -1,4 +1,4 @@
-module github.com/Layr-Labs/eigensdk-go
+module github.com/mpjunior92/eigensdk-go
 
 go 1.21
 

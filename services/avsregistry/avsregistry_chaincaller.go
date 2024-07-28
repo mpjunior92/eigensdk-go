@@ -3,15 +3,15 @@ package avsregistry
 import (
 	"context"
 	"fmt"
-	opstateretriever "github.com/Layr-Labs/eigensdk-go/contracts/bindings/OperatorStateRetriever"
+	opstateretriever "github.com/mpjunior92/eigensdk-go/contracts/bindings/OperatorStateRetriever"
 	"github.com/ethereum/go-ethereum/common"
 	"math/big"
 
-	"github.com/Layr-Labs/eigensdk-go/crypto/bls"
-	"github.com/Layr-Labs/eigensdk-go/logging"
-	opinfoservice "github.com/Layr-Labs/eigensdk-go/services/operatorsinfo"
-	"github.com/Layr-Labs/eigensdk-go/types"
-	"github.com/Layr-Labs/eigensdk-go/utils"
+	"github.com/mpjunior92/eigensdk-go/crypto/bls"
+	"github.com/mpjunior92/eigensdk-go/logging"
+	opinfoservice "github.com/mpjunior92/eigensdk-go/services/operatorsinfo"
+	"github.com/mpjunior92/eigensdk-go/types"
+	"github.com/mpjunior92/eigensdk-go/utils"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 )
 

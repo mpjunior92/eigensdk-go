@@ -13,7 +13,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	fireblocks "github.com/Layr-Labs/eigensdk-go/chainio/clients/fireblocks"
+	fireblocks "github.com/mpjunior92/eigensdk-go/chainio/clients/fireblocks"
 	gomock "go.uber.org/mock/gomock"
 )
 

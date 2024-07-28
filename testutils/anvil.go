@@ -14,7 +14,7 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	contractreg "github.com/Layr-Labs/eigensdk-go/contracts/bindings/ContractsRegistry"
+	contractreg "github.com/mpjunior92/eigensdk-go/contracts/bindings/ContractsRegistry"
 )
 
 func StartAnvilContainer(anvilStateFileName string) (testcontainers.Container, error) {

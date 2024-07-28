@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/Layr-Labs/eigensdk-go/logging"
+	"github.com/mpjunior92/eigensdk-go/logging"
 )
 
 func GetTestLogger() logging.Logger {

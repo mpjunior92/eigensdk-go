@@ -1,10 +1,10 @@
 package avsregistry
 
 import (
-	"github.com/Layr-Labs/eigensdk-go/chainio/clients/elcontracts"
-	"github.com/Layr-Labs/eigensdk-go/chainio/clients/eth"
-	"github.com/Layr-Labs/eigensdk-go/chainio/txmgr"
-	"github.com/Layr-Labs/eigensdk-go/logging"
+	"github.com/mpjunior92/eigensdk-go/chainio/clients/elcontracts"
+	"github.com/mpjunior92/eigensdk-go/chainio/clients/eth"
+	"github.com/mpjunior92/eigensdk-go/chainio/txmgr"
+	"github.com/mpjunior92/eigensdk-go/logging"
 )
 
 func BuildClients(

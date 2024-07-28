@@ -5,11 +5,11 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 
-	"github.com/Layr-Labs/eigensdk-go/chainio/clients/eth"
-	blsapkreg "github.com/Layr-Labs/eigensdk-go/contracts/bindings/BLSApkRegistry"
-	regcoord "github.com/Layr-Labs/eigensdk-go/contracts/bindings/RegistryCoordinator"
-	"github.com/Layr-Labs/eigensdk-go/logging"
-	"github.com/Layr-Labs/eigensdk-go/utils"
+	"github.com/mpjunior92/eigensdk-go/chainio/clients/eth"
+	blsapkreg "github.com/mpjunior92/eigensdk-go/contracts/bindings/BLSApkRegistry"
+	regcoord "github.com/mpjunior92/eigensdk-go/contracts/bindings/RegistryCoordinator"
+	"github.com/mpjunior92/eigensdk-go/logging"
+	"github.com/mpjunior92/eigensdk-go/utils"
 )
 
 type ChainSubscriber struct {

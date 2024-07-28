@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Layr-Labs/eigensdk-go/crypto/bls"
-	"github.com/Layr-Labs/eigensdk-go/logging"
-	"github.com/Layr-Labs/eigensdk-go/services/avsregistry"
-	"github.com/Layr-Labs/eigensdk-go/types"
-	"github.com/Layr-Labs/eigensdk-go/utils"
+	"github.com/mpjunior92/eigensdk-go/crypto/bls"
+	"github.com/mpjunior92/eigensdk-go/logging"
+	"github.com/mpjunior92/eigensdk-go/services/avsregistry"
+	"github.com/mpjunior92/eigensdk-go/types"
+	"github.com/mpjunior92/eigensdk-go/utils"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 )
 

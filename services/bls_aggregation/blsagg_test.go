@@ -11,19 +11,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Layr-Labs/eigensdk-go/chainio/clients"
-	"github.com/Layr-Labs/eigensdk-go/chainio/utils"
-	"github.com/Layr-Labs/eigensdk-go/crypto/bls"
-	"github.com/Layr-Labs/eigensdk-go/logging"
-	"github.com/Layr-Labs/eigensdk-go/services/avsregistry"
-	"github.com/Layr-Labs/eigensdk-go/services/operatorsinfo"
-	"github.com/Layr-Labs/eigensdk-go/testutils"
-	"github.com/Layr-Labs/eigensdk-go/types"
+	"github.com/mpjunior92/eigensdk-go/chainio/clients"
+	"github.com/mpjunior92/eigensdk-go/chainio/utils"
+	"github.com/mpjunior92/eigensdk-go/crypto/bls"
+	"github.com/mpjunior92/eigensdk-go/logging"
+	"github.com/mpjunior92/eigensdk-go/services/avsregistry"
+	"github.com/mpjunior92/eigensdk-go/services/operatorsinfo"
+	"github.com/mpjunior92/eigensdk-go/testutils"
+	"github.com/mpjunior92/eigensdk-go/types"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/require"
 
-	avssm "github.com/Layr-Labs/eigensdk-go/contracts/bindings/MockAvsServiceManager"
+	avssm "github.com/mpjunior92/eigensdk-go/contracts/bindings/MockAvsServiceManager"
 )
 
 // TestBlsAgg is a suite of test that tests the main aggregation logic of the aggregation service

@@ -7,13 +7,13 @@ package metrics_test
 import (
 	"context"
 
-	"github.com/Layr-Labs/eigensdk-go/chainio/clients"
-	"github.com/Layr-Labs/eigensdk-go/chainio/clients/eth"
-	"github.com/Layr-Labs/eigensdk-go/logging"
-	"github.com/Layr-Labs/eigensdk-go/metrics"
-	"github.com/Layr-Labs/eigensdk-go/metrics/collectors/economic"
-	rpccalls "github.com/Layr-Labs/eigensdk-go/metrics/collectors/rpc_calls"
-	"github.com/Layr-Labs/eigensdk-go/types"
+	"github.com/mpjunior92/eigensdk-go/chainio/clients"
+	"github.com/mpjunior92/eigensdk-go/chainio/clients/eth"
+	"github.com/mpjunior92/eigensdk-go/logging"
+	"github.com/mpjunior92/eigensdk-go/metrics"
+	"github.com/mpjunior92/eigensdk-go/metrics/collectors/economic"
+	rpccalls "github.com/mpjunior92/eigensdk-go/metrics/collectors/rpc_calls"
+	"github.com/mpjunior92/eigensdk-go/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/prometheus/client_golang/prometheus"
 )

@@ -3,7 +3,7 @@ package types
 import (
 	"log/slog"
 
-	"github.com/Layr-Labs/eigensdk-go/crypto/bls"
+	"github.com/mpjunior92/eigensdk-go/crypto/bls"
 )
 
 type TaskIndex = uint32
